@@ -15,7 +15,7 @@ return array(
     // ...
     'db' => array(
         'driver'         => 'Pdo',
-        'dsn'            => 'mysql:dbname=zf2tutorial;host=78.47.108.50',
+        'dsn'            => 'mysql:dbname=zf2tutorial;host=localhost',
         'driver_options' => array(
             PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''
         ),
